@@ -1,4 +1,3 @@
-/* Reset and Base Styles */
 :root {
     --primary-bg: linear-gradient(135deg, #232526, #414345);
     --text-color: #fff;
@@ -37,7 +36,6 @@
     -moz-osx-font-smoothing: grayscale;
   }
   
-  /* Time Display */
   #ptime {
     font-size: clamp(2.5rem, 10vw, 5rem);
     font-weight: 700;
@@ -47,7 +45,6 @@
     text-align: center;
   }
   
-  /* Time Input */
   input[type="time"] {
     padding: 0.75rem 1.25rem;
     font-size: clamp(1rem, 4vw, 1.2rem);
@@ -72,7 +69,6 @@
     box-shadow: 0 0 0 3px rgba(255,255,255,0.2), var(--shadow-hover);
   }
   
-  /* Responsive Adjustments */
   @media (max-width: 768px) {
     body {
       padding: 1.5rem;
@@ -91,7 +87,6 @@
     }
   }
   
-  /* Reduced motion preference */
   @media (prefers-reduced-motion: reduce) {
     html {
       scroll-behavior: auto;
@@ -102,7 +97,6 @@
     }
   }
   
-  /* Dark mode preference */
   @media (prefers-color-scheme: dark) {
     :root {
       --input-bg: #2d2d2d;
@@ -113,3 +107,4 @@
       filter: invert(1);
     }
   }
+  
